@@ -19,7 +19,7 @@ export default function Portfolio() {
           p={{ sm: 5, md: 5, lg: 16 }}
         >
           <Box p={4}>
-            <Flex gap={5} direction="row" alignItems="center">
+            <Flex gap={5} direction="row" flexWrap="nowrap" alignItems="center">
               <ProjectsContainer />
             </Flex>
           </Box>

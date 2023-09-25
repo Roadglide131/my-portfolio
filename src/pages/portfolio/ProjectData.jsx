@@ -1,5 +1,7 @@
 import SS2 from "../../assets/images/squadSync/ss2.jpg";
 import PR1 from "../../assets/images/patchRecipe/pr1.jpg";
+import NP1 from "../../assets/images/notepadify/screenshot.png";
+import WP from "../../assets/images/weatherApi/weather-api.png";
 const projectData = [
   {
     title: "SquadSync",
@@ -17,6 +19,22 @@ const projectData = [
       "Recipe Patch is your gateway to a world of culinary wonders. With an extensive library of recipes spanning global cuisines, dietary preferences, and cooking levels, it's your go-to web app for all things food. Whether you're planning a weeknight dinner or an extravagant feast, Recipe Patch offers intelligent search options to effortlessly find the perfect recipe. Dive into a community of passionate cooks, explore ratings and reviews, and share your own culinary experiences. Simplify meal planning, access cooking tips and techniques, and curate your own recipe collection. With Recipe Patch, culinary inspiration is just a click away, ensuring that every meal you create is a masterpiece.",
     // technologies: ["React", "Node.js", "Express", "MongoDB"],
   },
+  {
+    title: "Notepadify",
+    image: NP1,
+    link: "https://notepadify-adcf86c2911a.herokuapp.com/",
+    description:
+      "Notepadify is a notepad web app that can be downloaded and used online and offline",
+    // technologies: ["React", "Node.js", "Express", "MongoDB"],
+  },
+  {
+    title: "Weather",
+    image: WP,
+    link: "https://roadglide131.github.io/weather-api/",
+    description: "Weather is a web app to forecarst weather",
+  },
 ];
 
 export default projectData;
+
+// https://notepadify-adcf86c2911a.herokuapp.com/

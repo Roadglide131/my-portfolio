@@ -23,7 +23,7 @@ function CustomCard(props) {
       margin={2}
     >
       <img
-        maxWidth="90%"
+        width="100%"
         margin="auto"
         src={image}
         alt="Woman paying for a purchase"
