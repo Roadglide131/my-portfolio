@@ -3,7 +3,7 @@ import "./App.css";
 import Navbar from "./components/layout/Navbar/Navbar";
 import { Flex } from "@chakra-ui/react";
 import Footer from "./components/layout/Footer/Footer";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AboutMe from "./pages/about-me/AboutMe";
 import Contact from "./pages/contact/Contact";
 import Portfolio from "./pages/portfolio/Portfolio";
