@@ -25,7 +25,7 @@ import profile_pic from "../../../assets/images/profile_pic.jpg";
 const Links = [
   { to: "/", text: "About me" },
   { to: "/contact", text: "Contact" },
-  { to: "/portfolio", text: "Portfolio" },
+  { to: "/my-portfolio", text: "Portfolio" },
 ];
 
 const NavLink = ({ text, to }) => {
