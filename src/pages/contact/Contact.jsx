@@ -89,7 +89,7 @@ export default function Contact() {
                         <FormLabel>Mail</FormLabel>
                         <InputGroup borderColor="#E0E1E7">
                           <InputLeftElement pointerEvents="none">
-                            <MdOutlineEmail color="green.800" />
+                            <MdOutlineEmail color="blue.800" />
                           </InputLeftElement>
                           <Input type="text" size="lg" />
                         </InputGroup>
@@ -97,9 +97,9 @@ export default function Contact() {
                       <FormControl id="name">
                         <FormLabel>Message</FormLabel>
                         <Textarea
-                          borderColor="green.300"
+                          borderColor="blue.300"
                           _hover={{
-                            borderRadius: "green.300",
+                            borderRadius: "blue.300",
                           }}
                           placeholder="message"
                         />
