@@ -16,18 +16,21 @@ function CustomCard(props) {
   return (
     <Box
       p={4}
-      display={{ md: "flex" }}
+      display={{ md: "flex flew-" }}
       flexDir="column"
       maxWidth="40rem"
       borderWidth={1}
       margin={2}
     >
       <img
-        width="100%"
         margin="auto"
         src={image}
-        alt="Woman paying for a purchase"
-        style={{ borderRadius: "10%" }}
+        style={{
+          borderRadius: "10%",
+          objectFit: "cover",
+          height: "250px",
+          width: "100%",
+        }}
       />
       <Stack
         align={{ base: "center", md: "stretch" }}
