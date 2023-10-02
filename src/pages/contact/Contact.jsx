@@ -53,18 +53,18 @@ export default function Contact() {
                     <VStack pl={0} spacing={3} alignItems="flex-start">
                       <Button
                         variant="ghost"
-                        color="#3BEEB7"
+                        color="#5865f2"
                         _hover={{ border: "2px solid #1C6FEB" }}
-                        leftIcon={<MdEmail color="#3BEEB7" size="20px" />}
+                        leftIcon={<MdEmail color="#5865f2" size="20px" />}
                       >
                         darrenj@oldschoolrenovation.com
                       </Button>
                       <Button
                         size="md"
                         variant="ghost"
-                        color="#3BEEB7"
+                        color="#5865f2"
                         _hover={{ border: "2px solid #1C6FEB" }}
-                        leftIcon={<MdLocationOn color="#3BEEB7" size="20px" />}
+                        leftIcon={<MdLocationOn color="#5865f2" size="20px" />}
                       >
                         Saint Louis, Missouri
                       </Button>
@@ -107,7 +107,7 @@ export default function Contact() {
                       <FormControl id="name" float="right">
                         <Button
                           variant="solid"
-                          bg="#3BEEB7"
+                          bg="#5865f2"
                           color="white"
                           _hover={{}}
                         >

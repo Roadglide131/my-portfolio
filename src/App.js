@@ -10,7 +10,9 @@ import Portfolio from "./pages/portfolio/Portfolio";
 function App() {
   return (
     <Flex direction="column" flex="1" style={{ minHeight: "100vh" }}>
-      <Router basename={"/"}>
+      <Router
+        basename={process.env.PUBLIC_URL ? `/${process.env.PUBLIC_URL}` : "/"}
+      >
         <Navbar />
         <div style={{ minHeight: "90vh" }}>
           <Routes>
