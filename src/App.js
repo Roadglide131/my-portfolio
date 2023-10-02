@@ -10,7 +10,7 @@ import Portfolio from "./pages/portfolio/Portfolio";
 function App() {
   return (
     <Flex direction="column" flex="1" style={{ minHeight: "100vh" }}>
-      <Router>
+      <Router basename="/">
         <Navbar />
         <div style={{ minHeight: "90vh" }}>
           <Routes>
