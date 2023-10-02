@@ -1,7 +1,7 @@
 {
-  "name": "portfolio",
+  "name": "my-portfolio",
   "version": "0.1.0",
-  "homepage": "https://roadglide131.github.io/portfolio",
+  "homepage": "https://roadglide131.github.io/my-portfolio",
   "private": false,
   "dependencies": {
     "@chakra-ui/icons": "^2.1.0",
